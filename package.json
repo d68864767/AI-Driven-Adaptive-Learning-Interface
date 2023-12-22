@@ -1,0 +1,43 @@
+{
+  "name": "AI-Driven Adaptive Learning Interface",
+  "version": "1.0.0",
+  "description": "A web-based platform designed to revolutionize online learning by using advanced AI algorithms to create a fully personalized learning experience.",
+  "main": "App.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --config TestSuite.js",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/AILI.git"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/AILI/issues"
+  },
+  "homepage": "https://github.com/yourusername/AILI#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "tensorflow": "^2.8.0",
+    "aws-sdk": "^2.814.0",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "babel-loader": "^8.2.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
